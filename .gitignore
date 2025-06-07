@@ -1,0 +1,5 @@
+model_cache/
+install.txt
+todo.txt
+rosmaster_install.txt
+*.pyc
