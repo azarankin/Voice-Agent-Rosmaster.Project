@@ -5,9 +5,9 @@ from scipy.io.wavfile import write
 from config import DEFAULT_SAMPLE_RATE, AudioSettings
 
 class VoiceRecorder:
-    def __init__(self, settings: AudioSettings = AudioSettings(), debug: bool = False):
+    def __init__(self, mic_id = None, settings: AudioSettings = AudioSettings(), debug: bool = False):
         self.fs = settings.sample_rate
-        self.mic_id = settings.mic_id
+        self.mic_id = mic_id or settings.mic_id
         self.silence_threshold = settings.silence_threshold
         self.max_duration_sec = settings.max_duration_sec
         self.stop_after_sec = settings.stop_after_silence_sec

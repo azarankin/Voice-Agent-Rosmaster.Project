@@ -16,6 +16,10 @@ class MoveMotors():
         # stop motion begin reset
         self.stop()
 
+    def set_speed(self, speed):
+        self.MAX_MOTOR_SPEED = speed
+
+
     def gas(self):
         self.bot.set_motor(self.motor_front0_speed, self.motor_front1_speed, self.motor_back0_speed, self.motor_back1_speed)
     

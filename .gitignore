@@ -3,3 +3,4 @@ model_cache/
 todo.txt
 #rosmaster_install.txt
 *.pyc
+CH341SER/
