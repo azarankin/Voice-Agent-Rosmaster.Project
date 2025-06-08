@@ -1,6 +1,6 @@
 model_cache/
-#install.txt
+install.txt
 todo.txt
-#rosmaster_install.txt
+rosmaster_install.txt
 *.pyc
 CH341SER/
