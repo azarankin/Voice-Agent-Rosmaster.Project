@@ -1,7 +1,12 @@
 
 # 🎙️ Voice-Controlled Robot Agent using NVIDIA NeMo + ROSMASTER
 
-https://youtu.be/SUPT8yU3pgg
+
+🔗 [GitHub Project](https://github.com/azarankin/Voice-Agent-Rosmaster.Project)  
+
+📄 [LinkedIn Post](https://www.linkedin.com/posts/arthur-zarankin_jetson-orin-nvidia-activity-7337372543021936641-rE1h)
+
+🎥 [Watch the Demo](https://www.youtube.com/watch?v=SUPT8yU3pgg)  
 
 [![Voice Agent Rosmaster](demo_image2.png)](https://youtu.be/SUPT8yU3pgg "Voice Agent Rosmaster")
 
